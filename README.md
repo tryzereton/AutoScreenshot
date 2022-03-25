@@ -1,14 +1,20 @@
 # Auto Screenshot
 Otomatik Ekran Görüntüsü Kaydedici
 
-Derlemek için MSBuild aracını kullanabilirsiniz.
+You can use msbuild to compile:
 
-$ msbuild AutoScreenshot.sln veya AutoScreenshot.csproj
+### Automatic Screenshot for Windows
 
+```cmd
+msbuild AutoScreenshot.sln
+```
 
+or
 
-Automatic Screenshot for Windows
+```cmd
+msbuild AutoScreenshot.csrpoj
+```
 
-You can use the MSBuild tool to compile.
+### Microsoft Build Tools 2015
 
-$ msbuild AutoScreenshot.sln veya AutoScreenshot.csproj
+- [Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159) - Download
